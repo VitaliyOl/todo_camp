@@ -21,8 +21,6 @@ React, Typescript, Zustand, React Final Form, Blueprint, Emotion CSS.
 
 ## Pre requirements
 
-Avoid Upper case! Do not use `N_Surname` syntax or `Implement-Crud-Todo` syntax
-
 If you keep experiencing something like: **tslint: command not found**
 please do the following:
 
