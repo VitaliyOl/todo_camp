@@ -50,8 +50,8 @@ Time-frames of the test task is highly important! You have only 2 weeks for the 
 
 - _You should split your code on logical components ( `<TodoContainer />`, `<TodoElement/>` etc);_
 - _For Edit/Add you should use forms written with [React Final Form](https://final-form.org/docs/react-final-form/getting-started), [Formik](https://formik.org/docs/overview), [React Hook Form](https://www.react-hook-form.com/get-started);_
-- _Put logic related to server interactions inside `service/http.ts` file (check [Our Documentation](https://github.com/CodeGeneration-2020/code-generation-code-style/blob/main/docs/javascript.md#server-interactions-))_
-- _Use [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction) for managing your application state;_
+- \_Put logic related to server interactions inside `service/http.ts`
+- _Use [Zustand]for managing your application state;_
 - _Todo list page should have different behaviors on different devices. Desktop - should be displayed as a table, Tablet - should be as slider, Mobile - list._
 - _Your font sizes, colors, margins, paddings should be in THEME const_
 - _Create `ROUTER_KEYS` const for routing_
@@ -89,37 +89,3 @@ Time-frames of the test task is highly important! You have only 2 weeks for the 
 - _All pagination should be handled by backend_
 - _Change frontend request with pagination params_
 - _Pagination should be done differently on different devices. Desktop - button pagination, Tablet - horizontal scroll pagination, Mobile - vertical scroll pagination_
-
-### NOTES
-
-> Backend should have stored in `backend` dir, mobile should be stored in `fronted` dir.
-> Use technologies from `Useful links and technologies`. You should create separate pr for each task.
-
-Design: [drive.google](https://drive.google.com/file/d/1PcusGdHTmD4qzhKRJnd9pk2jLAUyLIiX/view?usp=sharing)
-
-## PR convention
-
-1. Each intern will be attached to a branch (`<name that you have set in pre-requirements>/main`);
-2. When you are working on a feature you should create a separate branch from `<name that you have set in pre-requirements>/main` with the following name:
-   `feature/<name that you have set in pre-requirements>/<feature-name>` or `bug/<name that you have set in pre-requirements>/<feature-name>`. Once you are done with a subtask you should create a PR into `<name that you have set in pre-requirements>/main` and ping `<Malyshko Serhii>` for review;
-3. Title of your PR's should be `feat: <name of your feature>` or `bug-fix: <name of your bugfix>`. Description field should contain short info about feature/bug;
-4. PR's are under review ONLY between 9AM - 9:30AM (Kyiv EET time)
-
-> If you will face with some issues with git. Ask `Danyyl Kuchkov` via slack;
-
-## Useful links and technologies
-
-[Corporate Codestyle](https://github.com/CodeGeneration-2020/code-generation-code-style) <br />
-[Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction) <br />
-[Blueprint](https://blueprintjs.com/docs/#blueprint/getting-started) <br />
-[React Final Form](https://final-form.org/docs/react-final-form/getting-started) <br />
-[Formik](https://formik.org/docs/overview) <br />
-[React Hook Form](https://www.react-hook-form.com/get-started) <br />
-[Typescript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)  <br /> 
-[Passport](http://www.passportjs.org/) <br />
-[Emotion CSS](https://emotion.sh/docs/introduction) <br />
-[Prisma](https://www.prisma.io/docs/orm/overview/introduction) <br />
-
-```
-
-```
